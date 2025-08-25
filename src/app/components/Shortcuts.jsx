@@ -6,7 +6,7 @@ import { SparklesCore } from "./ui/sparkles";
 
 export const Shortcuts = () => {
   return (
-    <div className="flex bg-black relative">
+    <div className="flex flex-col sm:flex-col md:flex-row gap-6 md:gap-12 lg:gap-32 items-center justify-center relative bg-black p-10 md:p-12 lg:p-24">
       <div className="absolute inset-0">
         <SparklesCore
           id="tsparticlesfullpage"

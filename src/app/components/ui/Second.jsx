@@ -1,24 +1,24 @@
 import React from "react";
 import { GlowingEffect } from "./glowing-effect";
-import { PinContainer } from "./3d-pin";
 
 export const Second = () => {
   return (
-    <PinContainer
-      title="/ui.aceternity.com"
-      href="https://twitter.com/mannupaaji"
-      className="p-2 transparent text-white rounded-lg"
-    >
+    <div className="flex justify-center relative border-4 rounded-xl p-2 bg-amber-800">
       <GlowingEffect
         blur={0}
-        borderWidth={6}
+        borderWidth={8}
         spread={50}
         glow={true}
         disabled={false}
         proximity={64}
         inactiveZone={0.01}
       />
-      MEAGBEAJEH CONISDIAWIEkfjlkajf jlfkjsafjsfjdsj
-    </PinContainer>
+      <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gray-800 text-white min-h-28 min-w-52">
+        <h1 className="text-lg font-bold underline w-auto flex flex-col">
+          Projects
+        </h1>
+        <div className="font-extralight">View my projects.</div>
+      </div>
+    </div>
   );
 };

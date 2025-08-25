@@ -1,12 +1,13 @@
 "use client";
 import { Shortcuts } from "./components/Shortcuts";
-import { AuroraBackground } from "./components/ui/aurora-background";
+import { Hero } from "./components/ui/Hero";
+
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      <AuroraBackground className="h-[600px]"/>
-      <Shortcuts />
+    <div className="flex flex-col">   
+    <Hero />
+    <Shortcuts />
 
     </div>
   );
