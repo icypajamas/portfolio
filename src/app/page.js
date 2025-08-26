@@ -1,6 +1,7 @@
 "use client";
+import { Aboutme } from "./components/Aboutme";
 import { Shortcuts } from "./components/Shortcuts";
-import { Hero } from "./components/ui/Hero";
+import { Hero } from "./components/Hero";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="flex flex-col">   
     <Hero />
     <Shortcuts />
+    <Aboutme />
 
     </div>
   );

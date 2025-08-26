@@ -1,5 +1,5 @@
 import React from "react";
-import { AuroraBackground } from "./aurora-background";
+import { AuroraBackground } from "./ui/aurora-background";
 import { motion } from "motion/react";
 
 export const Hero = () => {

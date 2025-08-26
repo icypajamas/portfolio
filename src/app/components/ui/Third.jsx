@@ -13,7 +13,7 @@ export const Third = () => {
         proximity={64}
         inactiveZone={0.01}
       />
-      <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gray-800 text-white min-h-28 min-w-52">
+      <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gray-800 text-white min-h-28 min-w-60">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
           Experience & Certifications
         </h1>
