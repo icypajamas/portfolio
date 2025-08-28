@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { GlowingEffect } from "./ui/glowing-effect";
+import { AboutmeLogos } from "./ui/AboutmeLogos";
 
 export const Aboutme = () => {
   return (
@@ -17,26 +17,17 @@ export const Aboutme = () => {
       >
         <div className="flex flex-col gap-4">
           <h1 className="flex text-white text-6xl">about_me</h1>
-          <p className="text-white text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aperiam.
-          Ea reprehenderit dolorum saepe maxime cum quam excepturi accusantium,
-          ratione quod fugit quibusdam autem! Nesciunt dicta perspiciatis eum
-          adipisci voluptate! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eaque illum a perspiciatis? Quam veniam, molestiae quod
-          recusandae sunt cupiditate maxime quia ipsum eligendi nisi doloremque?
-          Iure beatae harum quis tenetur.
+          <p className="text-white text-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+            aperiam. Ea reprehenderit dolorum saepe maxime cum quam excepturi
+            accusantium, ratione quod fugit quibusdam autem! Nesciunt dicta
+            perspiciatis eum adipisci voluptate! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Eaque illum a perspiciatis? Quam
+            veniam, molestiae quod recusandae sunt cupiditate maxime quia ipsum
+            eligendi nisi doloremque? Iure beatae harum quis tenetur.
           </p>
         </div>
-        <div className="flex relative w-240 h-80 border rounded-xl border-white">
-          <GlowingEffect
-            blur={0}
-            borderWidth={8}
-            spread={100}
-            glow={true}
-            disabled={false}
-            proximity={64}
-            inactiveZone={0.01}
-          />
-        </div>
+        <AboutmeLogos />
       </motion.div>
     </div>
   );
