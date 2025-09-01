@@ -2,6 +2,7 @@
 import { Aboutme } from "./components/Aboutme";
 import { Shortcuts } from "./components/Shortcuts";
 import { Hero } from "./components/Hero";
+import { ProjectSection } from "./components/ProjectSection";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero />
     <Shortcuts />
     <Aboutme />
+    <ProjectSection />
 
     </div>
   );

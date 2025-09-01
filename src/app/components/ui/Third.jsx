@@ -3,7 +3,7 @@ import { GlowingEffect } from "./glowing-effect";
 
 export const Third = () => {
   return (
-    <div className="flex justify-center relative border-4 rounded-xl p-2 bg-amber-800">
+    <div className="flex justify-center relative rounded-xl">
       <GlowingEffect
         blur={0}
         borderWidth={8}
@@ -13,7 +13,7 @@ export const Third = () => {
         proximity={64}
         inactiveZone={0.01}
       />
-      <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gray-800 text-white min-h-28 min-w-60">
+      <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800 text-white min-h-28 min-w-60">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
           Experience & Certifications
         </h1>
