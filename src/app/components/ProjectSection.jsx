@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import { GlowingEffect } from "./ui/glowing-effect";
 
 export const ProjectSection = () => {
   const projects = [
@@ -31,13 +32,15 @@ export const ProjectSection = () => {
         }}
         className="flex flex-col sm:flex-col gap-4 md:flex-row w-23/24 bg-transparent border border-gray-700 rounded-xl p-4"
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-8 sm:gap-8 lg:gap-4">
+          <div className="flex flex-col gap-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
             my_projects
           </h1>
           <p className="text-white text-2xl font-extralight">
             Here are some of the projects I've worked on:
           </p>
+          </div>
           {projects.map((project, index) => (
             <motion.div
               initial={{ opacity: 0.0, y: 40 }}
@@ -48,8 +51,17 @@ export const ProjectSection = () => {
                 ease: "easeInOut",
               }}
               key={index}
-              className="flex flex-col sm:flex-col gap-4 md:flex-row md:gap-12 bg-transparent border border-gray-700 rounded-xl p-4"
+              className="flex flex-col sm:flex-col gap-4 md:flex-row md:gap-12 bg-transparent border border-gray-700 rounded-xl p-4 relative"
             >
+              <GlowingEffect
+                blur={0}
+                borderWidth={8}
+                spread={50}
+                glow={true}
+                disabled={false}
+                proximity={32}
+                inactiveZone={0.01}
+              />
               <img
                 src={project.thumbnail}
                 alt={project.name}
