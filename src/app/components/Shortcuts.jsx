@@ -18,9 +18,9 @@ export const Shortcuts = () => {
           particleColor="#FFFFFF"
         />
       </div>
-      <First />
       <Second />
       <Third />
+      <First />
     </div>
   );
 };

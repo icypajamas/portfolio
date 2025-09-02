@@ -5,18 +5,19 @@ import { GlowingEffect } from "./ui/glowing-effect";
 export const ProjectSection = () => {
   const projects = [
     {
-      name: "Stock Portfolio Tracker",
-      description:
-        "A CLI based stock portfolio tracker built with Java. Utilizes OOP, file handling, and exception handling.",
-      thumbnail: "/next.svg",
-      link: "",
-    },
-    {
       name: "To-Do List",
       description:
         "A simple to-do list application built with React and Tailwind CSS. Features task addition, deletion, and completion functionalities.",
       thumbnail: "/next.svg",
       link: "https://github.com/icypajamas/todolist-react",
+    },
+
+    {
+      name: "Stock Portfolio Tracker",
+      description:
+        "A CLI based stock portfolio tracker built with Java. Utilizes OOP, file handling, and exception handling. Done as First Semester Programming Fundamentals Final Project.",
+      thumbnail: "/next.svg",
+      link: "",
     },
   ];
 
@@ -34,12 +35,12 @@ export const ProjectSection = () => {
       >
         <div className="flex flex-col gap-8 sm:gap-8 lg:gap-4">
           <div className="flex flex-col gap-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
-            my_projects
-          </h1>
-          <p className="text-white text-2xl font-extralight">
-            Here are some of the projects I've worked on:
-          </p>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
+              my_projects
+            </h1>
+            <p className="text-white text-2xl font-extralight">
+              Here are some of the projects I've worked on:
+            </p>
           </div>
           {projects.map((project, index) => (
             <motion.div
@@ -67,7 +68,7 @@ export const ProjectSection = () => {
                 alt={project.name}
                 className="flex w-full md:w-48 h-auto rounded-lg"
               />
-              <div>
+              <div className="flex flex-col gap-4 text-justify leading-relaxed">
                 <h2 className="flex text-white text-xl font-semibold">
                   {project.name}
                 </h2>

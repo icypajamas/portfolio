@@ -17,7 +17,7 @@ export const Aboutme = () => {
       >
         <div className="flex flex-col gap-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">about_me</h1>
-          <p className="text-gray-200 text-2xl font-extralight">
+          <p className="text-gray-200 text-2xl font-extralight text-justify leading-relaxed">
             I’m a first-year Computer Science student with a strong interest in
             web development and problem-solving. I enjoy building clean,
             functional, and modern websites using React and Next.js. My goal is
