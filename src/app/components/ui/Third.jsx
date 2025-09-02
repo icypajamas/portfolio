@@ -15,10 +15,10 @@ export const Third = () => {
       />
       <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800 text-white min-h-28 min-w-60">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
-          Experience & Certifications
+          Certifications
         </h1>
         <div className="font-extralight">
-          View my Experience and certifications.
+          Jump to my certifications.
         </div>
       </div>
     </div>

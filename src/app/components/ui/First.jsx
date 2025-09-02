@@ -15,10 +15,10 @@ export const First = () => {
       />
       <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800 text-white min-h-28 min-w-62">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
-          About and Links
+          About me
         </h1>
         <div className="font-extralight">
-          View an about me, with links and contact info.
+          Jump to the "about me" section.
         </div>
       </div>
     </div>

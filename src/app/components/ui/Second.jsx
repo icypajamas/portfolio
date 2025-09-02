@@ -17,7 +17,7 @@ export const Second = () => {
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
           Projects
         </h1>
-        <div className="font-extralight">View my projects.</div>
+        <div className="font-extralight">Jump to my projects.</div>
       </div>
     </div>
   );
