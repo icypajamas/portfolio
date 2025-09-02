@@ -12,7 +12,7 @@ export const Certifications = () => {
   ];
 
   return (
-    <div className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800">
+    <div id="certs" className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800">
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ export const Certifications = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
               _certifications_
             </h1>
-            <p className="text-white text-2xl font-extralight">
+            <p className="text-white text-xl lg:text-2xl font-extralight">
               Here are some of my certifications:
             </p>
           </div>
@@ -59,7 +59,7 @@ export const Certifications = () => {
                 className="flex w-full md:w-48 h-auto rounded-lg"
               />
               <div className="flex flex-col gap-4 text-justify leading-relaxed">
-                <h2 className="flex text-white text-xl font-semibold">
+                <h2 className="flex text-white text-lg lg:text-xl font-semibold">
                   {certification.title}
                 </h2>
                 <p className="flex text-gray-200 break-all">

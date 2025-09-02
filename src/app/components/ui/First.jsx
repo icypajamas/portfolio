@@ -13,14 +13,16 @@ export const First = () => {
         proximity={64}
         inactiveZone={0.01}
       />
+      <a href="#contact">
       <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800 text-white min-h-28 min-w-62">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
-          About me
+          Contact
         </h1>
         <div className="font-extralight">
-          Jump to the "about me" section.
+          Send me a message!
         </div>
       </div>
+      </a>
     </div>
   );
 };

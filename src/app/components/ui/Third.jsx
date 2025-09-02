@@ -13,6 +13,7 @@ export const Third = () => {
         proximity={64}
         inactiveZone={0.01}
       />
+      <a href="#certs">
       <div className="flex flex-col gap-2 relative rounded-xl p-4 bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800 text-white min-h-28 min-w-60">
         <h1 className="text-lg font-bold underline w-auto flex flex-col">
           Certifications
@@ -21,6 +22,7 @@ export const Third = () => {
           Jump to my certifications.
         </div>
       </div>
+      </a>
     </div>
   );
 };

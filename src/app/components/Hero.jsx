@@ -19,7 +19,7 @@ export const Hero = () => {
           Hello, Friend. I'm Hisham
         </div>
         <div className="flex text-center font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-          Computer Science student and aspiring web developer.
+          I'm a Computer Science student and aspiring web developer.
         </div>
       </motion.div>
     </AuroraBackground>
