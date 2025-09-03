@@ -7,8 +7,8 @@ export const ProjectSection = () => {
     {
       name: "To-Do List",
       description:
-        "A simple to-do list application built with React and Tailwind CSS. Features task addition, deletion, and completion functionalities.",
-      thumbnail: "/next.svg",
+        "A simple to-do list application built with React and Tailwind CSS. Features task addition, deletion, and reordering functionalities.",
+      thumbnail: "/projects/todo-list.png",
       link: "https://github.com/icypajamas/todolist-react",
     },
 
@@ -16,8 +16,8 @@ export const ProjectSection = () => {
       name: "Stock Portfolio Tracker",
       description:
         "A CLI based stock portfolio tracker built with Java. Utilizes OOP, file handling, and exception handling. Done as First Semester Programming Fundamentals Final Project.",
-      thumbnail: "/next.svg",
-      link: "",
+      thumbnail: "/projects/stock-portfolio-tracker.png",
+      link: "https://github.com/icypajamas/stock-portfolio-tracker",
     },
   ];
 
@@ -66,7 +66,7 @@ export const ProjectSection = () => {
               <img
                 src={project.thumbnail}
                 alt={project.name}
-                className="flex w-full md:w-48 h-auto rounded-lg"
+                className="flex w-full md:w-56 h-auto rounded-lg"
               />
               <div className="flex flex-col gap-4 text-justify leading-relaxed">
                 <h2 className="flex text-white text-lg lg:text-xl font-semibold">

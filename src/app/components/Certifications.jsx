@@ -5,7 +5,7 @@ import { GlowingEffect } from "./ui/glowing-effect";
 export const Certifications = () => {
   const certifications = [
     {
-      image: "/next.svg",
+      image: "./certificates/foundationsofcybersecurity.png",
       url: "https://coursera.org/share/8375705eaad486a59a60db186dc5205e",
       title: "Foundations of Cybersecurity - Coursera",
     },
@@ -23,7 +23,7 @@ export const Certifications = () => {
         }}
         className="flex flex-col sm:flex-col gap-4 md:flex-row w-23/24 bg-transparent border border-gray-700 rounded-xl p-4"
       >
-        <div className="flex flex-col gap-8 sm:gap-8 lg:gap-4">
+        <div className="flex flex-col gap-8 sm:gap-8 lg:gap-4 w-full">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
               _certifications_
@@ -56,7 +56,7 @@ export const Certifications = () => {
               <img
                 src={certification.image}
                 alt={certification.title}
-                className="flex w-full md:w-48 h-auto rounded-lg"
+                className="flex w-full md:w-56 h-auto rounded-lg"
               />
               <div className="flex flex-col gap-4 text-justify leading-relaxed">
                 <h2 className="flex text-white text-lg lg:text-xl font-semibold">

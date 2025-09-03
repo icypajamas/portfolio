@@ -16,13 +16,19 @@ export const Contact = () => {
         body: JSON.stringify({ name, email, message }),
         headers: { "Content-Type": "application/json" },
       });
+      if (response.ok) {
+        alert("Message sent!");
+      }
     } catch (error) {
       console.error("Error submitting form", error);
     }
   };
 
   return (
-    <div className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800">
+    <div
+      id="contacts"
+      className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800"
+    >
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,9 +39,10 @@ export const Contact = () => {
         }}
         className="flex flex-col gap-8 w-23/24 bg-transparent border border-gray-700 rounded-xl p-4 lg:p-10 items-center"
       >
-
         <div className="flex flex-col items-center">
-          <h1 className="text-2xl lg:text-4xl text-neutral-200 font-bold">Send me a Mail!</h1>
+          <h1 className="text-2xl lg:text-4xl text-neutral-200 font-bold">
+            Send me a Mail!
+          </h1>
         </div>
 
         <div className="flex flex-col gap-4 w-full sm:w-4/5 md:w-3/4 lg:w-2/5 border border-gray-700 rounded-xl p-8 relative">
