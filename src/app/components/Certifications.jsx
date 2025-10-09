@@ -12,7 +12,10 @@ export const Certifications = () => {
   ];
 
   return (
-    <div id="certs" className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800">
+    <div
+      id="certs"
+      className="flex flex-col pt-8 pb-8 w-full justify-center items-center bg-gradient-to-r from-slate-900 via-purple-800 to-gray-800"
+    >
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,14 +36,7 @@ export const Certifications = () => {
             </p>
           </div>
           {certifications.map((certification, index) => (
-            <motion.div
-              initial={{ opacity: 0.0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                delay: 0.3 + index * 0.3,
-                duration: 1.5,
-                ease: "easeInOut",
-              }}
+            <div
               key={index}
               className="flex flex-col sm:flex-col gap-4 md:flex-row md:gap-12 bg-transparent border border-gray-700 rounded-xl p-4 relative"
             >
@@ -72,7 +68,7 @@ export const Certifications = () => {
                   </a>
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </motion.div>
