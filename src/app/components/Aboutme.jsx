@@ -24,14 +24,14 @@ export const Aboutme = () => {
           </h1>
           <p className="text-gray-200 text-base sm:text-sm md:text-xl lg:text-2xl font-extralight text-justify leading-relaxed">
             I’m a first-year Computer Science student with a strong interest in
-            web development and problem-solving. I enjoy building functional,
-            and modern websites using React and Next.js. My goal is to grow into
-            a full-stack developer while exploring areas like cybersecurity and
-            automation along the way. My journey began when I tried coding 5
-            years ago in C# for the first time using the Unity game engine. That's
-            when I knew what I wanted to do. Now I'm here, learning languages
-            and exploring technologies. I'm excited to see how far I can go and
-            what I can create!
+            web development and problem-solving. My goal is to grow into a
+            full-stack developer while exploring areas like cybersecurity and
+            automation along the way. I enjoy doing CTFs in my free time as
+            well. My journey began when I tried coding 5 years ago in C# for the
+            first time using the Unity game engine. That's when I knew what I
+            wanted to do. Now I'm here, learning languages and exploring
+            technologies. I'm excited to see how far I can go and what I can
+            create!
           </p>
         </div>
         <AboutmeLogos />

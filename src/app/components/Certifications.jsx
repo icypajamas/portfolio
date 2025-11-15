@@ -7,7 +7,17 @@ export const Certifications = () => {
     {
       image: "./certificates/foundationsofcybersecurity.png",
       url: "https://coursera.org/share/8375705eaad486a59a60db186dc5205e",
-      title: "Foundations of Cybersecurity - Coursera",
+      title: "Google - Foundations of Cybersecurity",
+    },
+    {
+      image: "./certificates/introductiontobackend.jpeg",
+      url: "https://coursera.org/share/fe478bbdc0ac515a9e31b5f11ba1cf4f",
+      title: "Meta - Introduction to Back-end Development",
+    },
+    {
+      image: "./certificates/version-control.jpeg",
+      url: "https://coursera.org/share/25f6293cf676db0c819b95242c63e586",
+      title: "Meta - Version Control",
     },
   ];
 
